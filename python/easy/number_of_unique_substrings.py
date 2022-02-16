@@ -9,6 +9,7 @@ class Solution:
         tmp = 0
         ll = s[0] if len(s) > 0 else ' '
         total = 0
+        
         for l in s:
             if l != ll:
                 total += tmp * (tmp + 1) / 2
