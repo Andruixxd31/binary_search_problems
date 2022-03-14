@@ -1,6 +1,6 @@
 
 #My solution
-lass Solution:
+Class Solution:
     def solve(self, s):
         s = s[::-1] #copies string, uses memory
         total = 0
