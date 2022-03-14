@@ -1,3 +1,8 @@
+'''
+My Solution
+Time: O(n)
+Space: O(n)
+'''
 class Solution:
     def solve(self, n):
         l = [0] * n
